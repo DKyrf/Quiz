@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUIZ</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section id="main">
+        <div class="container">
+            <div class="header">
+                <h1>Question <span class="question-number"></span> from <span class="total-questions"></span></h1>
+            </div>
+            <h2 class="question">
+                
+            </h2>
+            <div class="answers">
+                <div data-id="1" class="answer a1"></div>
+                <div data-id="2" class="answer a2"></div>
+                <div data-id="3" class="answer a3"></div>
+                <div data-id="4" class="answer a4"></div>
+            </div>
+            <div class="btn">
+                <button class="next-button">Submit</button>
+            </div>
+            <div class="progress">
+            </div>
+        </div>
+
+        <section class="modal hidden">
+            <div class="container">
+                <h2 class="congrats">Congradulations</h2>
+                <p class="result"></p>
+                <button class="restart">Restart</button>
+            </div>
+        </section>
+
+        <section class="error hidden">
+            <div class="container">
+                <h2 class="try-again">Please Select any answer!</h2>
+                <button class="continue">Continue</button>
+            </div>
+    
+        </section>
+    
+    <footer>
+        Created by Danylo Kyrf @2022
+    </footer>
+    </section>
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
